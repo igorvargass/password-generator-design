@@ -1,0 +1,107 @@
+*
+{
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(30, 30, 30);
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: white;
+    font-size: 14px;
+}
+
+img
+{
+    max-width: 450px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container-input
+{
+    max-width: 340px;
+}
+
+button
+{
+    cursor: pointer;
+    margin: 25px 0;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    font-weight: bold;
+}
+
+#container-password
+{
+    max-width: 340px;
+}
+
+#container-password span
+{
+    display: flex;
+    justify-content: center;
+}
+
+#slider
+{
+    width: 100%;
+    outline: none;
+    margin-top: 5px;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    background: #DFDFDF;
+    height: 16px;
+    cursor: pointer;
+}
+
+#span-password
+{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #313131;
+    border-radius: 5px; 
+    font-size: 10px;
+    margin: 5px 0;
+    align-items: center;
+    height: 40px;
+    transition: transform 0.5s;
+}
+
+#span-password:hover
+{
+    transform: scale(1.04);
+}
+
+#tooltip
+{
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+    padding: 6px 8px;
+    text-align: center;
+    border-radius: 6px;
+    visibility: hidden;
+    background-color: rgb(15, 15, 15);
+}
